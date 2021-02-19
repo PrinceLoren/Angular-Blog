@@ -9,7 +9,7 @@ import {Subscription} from 'rxjs';
 })
 export class AlertComponent implements OnInit, OnDestroy {
 
-  @Input() delay = 5000
+  @Input() delay = 2500
 
   // @ts-ignore
   public text: string
